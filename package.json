@@ -1,0 +1,31 @@
+{
+  "name": "dockerrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@koa/router": "^9.3.1",
+    "@paralect/node-mongo": "^2.0.0-beta.5",
+    "joi": "^17.1.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "mongodb": "^3.5.9",
+    "node-mongo": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PogudoTanya/DockerRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PogudoTanya/DockerRepo/issues"
+  },
+  "homepage": "https://github.com/PogudoTanya/DockerRepo#readme"
+}
