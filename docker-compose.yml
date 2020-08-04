@@ -2,6 +2,7 @@ version: '3'
 
 services:
   nodejs:
+    container_name: tanya-nodejs
     build: .
     ports:
       - "8080:8080"
@@ -9,7 +10,7 @@ services:
       - app-network
   db:
     image: mongo:4.2
-    container_name: mongo
+    container_name: tanya-mongo
     volumes:
       - dbdata:/data/db
     networks:
