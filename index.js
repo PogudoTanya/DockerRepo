@@ -28,7 +28,7 @@ router.post('/POST/logs', async(ctx, next) => {
     next()
   });  
 
-router.get('/GET/logs', (ctx, next) => {
+router.get('/GET/logs',async (ctx, next) => {
     ctx.body = await logService.find();
     next()
   });  
